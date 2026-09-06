@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Game Lab — MCO LEARN</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<header class="navbar">
+
+<div class="brand">
+
+<div class="brand-icon">M</div>
+
+<div>
+<strong>MCO LEARN</strong>
+<span>Learn. Build. Create.</span>
+</div>
+
+</div>
+
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="courses.html">Courses</a>
+<a class="active" href="games.html">Game Lab</a>
+<a href="profile.html">Profile</a>
+
+</nav>
+
+</header>
+
+
+<main class="container">
+
+<section class="page-header">
+
+<span class="eyebrow">MCO GAME LAB</span>
+
+<h1>Learn by playing.</h1>
+
+<p>
+Short games and challenges that make learning fun.
+</p>
+
+</section>
+
+
+
+<section class="game-panel">
+
+<div class="game-top">
+
+<div>
+
+<span class="eyebrow">MINI GAME</span>
+
+<h2>⚡ Speed Quiz</h2>
+
+</div>
+
+<div class="score">
+
+<span>Score</span>
+
+<strong id="score">0</strong>
+
+</div>
+
+</div>
+
+
+<div id="gameQuestion" class="game-question">
+
+What does HTML stand for?
+
+</div>
+
+
+<div class="answers">
+
+<button onclick="gameAnswer(this, true)">
+HyperText Markup Language
+</button>
+
+<button onclick="gameAnswer(this, false)">
+High Tech Machine Language
+</button>
+
+<button onclick="gameAnswer(this, false)">
+Hyperlink Text Management Logic
+</button>
+
+</div>
+
+
+<p id="gameMessage"></p>
+
+</section>
+
+</main>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
