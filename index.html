@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MCO LEARN</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+  <div class="brand">
+    <div class="brand-icon">M</div>
+
+    <div>
+      <strong>MCO LEARN</strong>
+      <span>Learn. Build. Create.</span>
+    </div>
+  </div>
+
+  <nav>
+    <a class="active" href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="games.html">Game Lab</a>
+    <a href="profile.html">Profile</a>
+  </nav>
+
+  <button id="themeBtn" class="icon-btn">☾</button>
+
+</header>
+
+
+<main class="container">
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <span class="eyebrow">WELCOME TO MCO LEARN</span>
+
+      <h1>
+        Learn technology.
+        <br>
+        <span>Build amazing things.</span>
+      </h1>
+
+      <p>
+        Learn AI, Scratch, block coding and game development
+        through interactive lessons, challenges and projects.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="courses.html" class="primary-btn">
+          Start Learning →
+        </a>
+
+        <a href="games.html" class="secondary-btn">
+          🎮 Play & Learn
+        </a>
+      </div>
+
+    </div>
+
+
+    <div class="hero-card">
+
+      <div class="level-circle">
+        <span id="levelNumber">1</span>
+        <small>LEVEL</small>
+      </div>
+
+      <h3>Your learning journey</h3>
+
+      <div class="progress">
+        <div id="xpBar"></div>
+      </div>
+
+      <p>
+        <span id="xpText">0 XP</span>
+        <span>100 XP</span>
+      </p>
+
+    </div>
+
+  </section>
+
+
+
+  <section class="section">
+
+    <div class="section-heading">
+
+      <div>
+        <span class="eyebrow">LEARNING PATHS</span>
+        <h2>Choose your path</h2>
+      </div>
+
+      <a href="courses.html">View all →</a>
+
+    </div>
+
+
+    <div class="course-grid">
+
+      <article class="course-card ai">
+
+        <div class="course-icon">🤖</div>
+
+        <span class="tag">AI</span>
+
+        <h3>AI Academy</h3>
+
+        <p>
+          Discover artificial intelligence,
+          prompting and AI tools.
+        </p>
+
+        <div class="course-bottom">
+          <span>8 lessons</span>
+          <span>Beginner</span>
+        </div>
+
+      </article>
+
+
+      <article class="course-card scratch">
+
+        <div class="course-icon">🧩</div>
+
+        <span class="tag">BLOCK CODING</span>
+
+        <h3>Scratch Academy</h3>
+
+        <p>
+          Learn programming by creating
+          animations and games.
+        </p>
+
+        <div class="course-bottom">
+          <span>12 lessons</span>
+          <span>Beginner</span>
+        </div>
+
+      </article>
+
+
+      <article class="course-card games">
+
+        <div class="course-icon">🎮</div>
+
+        <span class="tag">GAME DEV</span>
+
+        <h3>Game Lab</h3>
+
+        <p>
+          Turn your ideas into playable
+          games and interactive projects.
+        </p>
+
+        <div class="course-bottom">
+          <span>10 projects</span>
+          <span>Creative</span>
+        </div>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+
+  <section class="section">
+
+    <div class="section-heading">
+
+      <div>
+        <span class="eyebrow">YOUR PROGRESS</span>
+        <h2>Keep going</h2>
+      </div>
+
+    </div>
+
+
+    <div class="stats-grid">
+
+      <div class="stat-card">
+
+        <span class="stat-icon">🔥</span>
+
+        <div>
+          <strong id="streak">1</strong>
+          <span>day streak</span>
+        </div>
+
+      </div>
+
+
+      <div class="stat-card">
+
+        <span class="stat-icon">⚡</span>
+
+        <div>
+          <strong id="totalXP">0</strong>
+          <span>total XP</span>
+        </div>
+
+      </div>
+
+
+      <div class="stat-card">
+
+        <span class="stat-icon">🏆</span>
+
+        <div>
+          <strong id="badges">0</strong>
+          <span>badges</span>
+        </div>
+
+      </div>
+
+
+      <div class="stat-card">
+
+        <span class="stat-icon">📚</span>
+
+        <div>
+          <strong>0</strong>
+          <span>courses done</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section class="section challenge">
+
+    <div>
+
+      <span class="eyebrow">TODAY'S CHALLENGE</span>
+
+      <h2>Build something fun.</h2>
+
+      <p>
+        Complete today's mini challenge and earn XP.
+      </p>
+
+    </div>
+
+    <button class="primary-btn" onclick="completeChallenge()">
+      Start Challenge
+    </button>
+
+  </section>
+
+</main>
+
+
+<footer>
+
+  <strong>MCO LEARN</strong>
+
+  <p>
+    Learn. Build. Create.
+  </p>
+
+</footer>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
