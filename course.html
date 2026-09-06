@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lesson — MCO LEARN</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<header class="navbar">
+
+<div class="brand">
+
+<div class="brand-icon">M</div>
+
+<div>
+<strong>MCO LEARN</strong>
+<span>Learn. Build. Create.</span>
+</div>
+
+</div>
+
+<a href="courses.html" class="back">
+← Courses
+</a>
+
+</header>
+
+
+<main class="lesson-layout">
+
+
+<aside class="lesson-sidebar">
+
+<span class="eyebrow">AI FUNDAMENTALS</span>
+
+<h3>Your lessons</h3>
+
+<button class="lesson active">
+01 — What is AI?
+</button>
+
+<button class="lesson">
+02 — Machine Learning
+</button>
+
+<button class="lesson">
+03 — Generative AI
+</button>
+
+<button class="lesson">
+04 — Prompting
+</button>
+
+<button class="lesson">
+05 — AI Tools
+</button>
+
+<button class="lesson">
+06 — AI Projects
+</button>
+
+</aside>
+
+
+
+<section class="lesson-content">
+
+<span class="tag">LESSON 01</span>
+
+<h1>What is Artificial Intelligence?</h1>
+
+<p class="lesson-intro">
+Let's understand AI in the simplest possible way.
+</p>
+
+
+<div class="learning-card">
+
+<div class="big-emoji">
+🤖
+</div>
+
+<h2>Think of AI as a smart problem solver.</h2>
+
+<p>
+Artificial intelligence is technology that allows
+computers to perform tasks that normally require
+human-like abilities such as recognizing patterns,
+understanding language and making predictions.
+</p>
+
+</div>
+
+
+
+<div class="example-box">
+
+<h3>💡 Real-world example</h3>
+
+<p>
+When a music app recommends a song you might enjoy,
+it can use patterns from your previous activity
+to make a prediction.
+</p>
+
+</div>
+
+
+
+<div class="quiz">
+
+<span class="eyebrow">QUICK CHECK</span>
+
+<h2>Which one is an example of AI?</h2>
+
+<button onclick="answerQuiz(this, false)">
+A calculator adding 2 + 2
+</button>
+
+<button onclick="answerQuiz(this, true)">
+A system recommending videos based on your interests
+</button>
+
+<button onclick="answerQuiz(this, false)">
+A normal light switch
+</button>
+
+<p id="quizResult"></p>
+
+</div>
+
+
+<button id="completeLesson" class="primary-btn" onclick="finishLesson()">
+Complete Lesson +25 XP
+</button>
+
+
+</section>
+
+</main>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
